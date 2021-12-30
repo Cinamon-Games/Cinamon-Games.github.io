@@ -16,6 +16,8 @@ header {
 }
 img {
 	image-rendering: -webkit-optimize-contrast;
+	transform: translateZ(0);
+	backface-visibility: hidden;
 }
 header .profileLogo .logoPlaceholder {
 	background-color: rgba(208,207,207,1.00);
