@@ -183,6 +183,14 @@ footer .footerNote span {
 
 /* Media query for Mobile devices*/
 @media only screen and (min-width : 285px) and (max-width : 480px) {
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 960px;
+	padding-left: 0%;
+	padding-right: 0%;
+}
 /* Header */
 header {
 	width: 100%;
