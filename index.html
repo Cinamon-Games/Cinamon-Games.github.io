@@ -1,20 +1,59 @@
 ﻿<!doctype html>
 <html>
-<link rel="stylesheet" href="css/style.css">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
-    <link rel="shortcut icon" href="images/icon.ico">
-    <title>Cinamon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/icon.ico">
+  <title>CINAMON</title>
+  <link href="css/cinamon.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    body {
+      margin-left: auto;
+      margin-top: 0px;
+      text-align: auto;
+      background-color: #525457;
+    }
+  </style>
 </head>
 
-<body>
-    <div class="page">
-        <div class="contentsHeader">
-            <img class="contentsIntroImg" src="images/web.jpg" alt="" />
-        </div>
-    </div>
+<body leftmargin="0px" topmargin="0px" marginwidth="0px">
+  <div style="color: #FFFFFF">
+    <img src="images/MainBannerTop.jpg" alt="alt_text" width="2560" height="1891" usemap="#topBanner" align="center"
+      style="width: 100%; max-width: 2560px; height: auto; margin: 0;">
+    <map name="topBanner">
+      <area shape="rect" coords="1692,1746,850,1631"
+        href="https://cinamondev3d.notion.site/06ce4510a2cd43469ac390475cb9b9ef" target="_blank">
+    </map>
+    <img src="images/MainProjects.jpg" alt="alt_text" width="2560" height="585" align="center"
+      style="width: 100%; max-width: 2560px; height: auto; text-align: center;">
+    <img src="images/MainProjects_1.jpg" alt="alt_text" width="2560" height="1249" usemap="#projects" align="center"
+      style="width: 100%; max-width: 1600px; height: auto; text-align: center;">
+    <map name="projects">
+      <area shape="rect" coords="2368,138,219,631" href="maybe.html" target="_self">
+      <area shape="rect" coords="219,1093,2368,636" href="dev3d.html" target="_self">
+    </map>
+    <img src="images/OurStudio.jpg" alt="alt_text" width="2560" height="1945" align="center"
+      style="width: 100%; max-width: 1600px; height: auto; text-align: center;">
+    <img src="images/Partners.jpg" alt="alt_text" width="2560" height="996" align="center"
+      style="width: 100%; max-width: 1600px; height: auto; text-align: center;">
+    <img src="images/Recruit.jpg" alt="alt_text" width="2560" height="1465" usemap="#recruit" align="center"
+      style="width: 100%; max-width: 1600px; height: auto; text-align: center;">
+    <map name="recruit">
+      <area shape="rect" coords="1420,830,2092,970" href="https://gamejob.co.kr/Company/Detail?tabcode=1&M=30459165"
+        target="_blank">
+    </map>
+    <img src="images/Info.jpg" alt="alt_text" width="2560" height="525" align="center"
+      style="width: 100%; max-width: 1600px; height: auto; text-align: center;">
+  </div>
+
+  <script src="scripts/vendor/jquery-1.10.2.min.js"></script>
+  <script src="scripts/vendor/jquery.rwdImageMaps.min.js"></script>
+  <script>
+    $(document).ready(function (e) {
+      $('img[usemap]').rwdImageMaps();
+    });
+  </script>
 </body>
 
 </html>

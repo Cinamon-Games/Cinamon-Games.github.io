@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/icon.ico">
+  <title>CINAMON</title>
+  <link href="css/cinamon.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    body {
+      margin-left: auto;
+      margin-top: 0px;
+      text-align: auto;
+      background-color: #525457;
+    }
+  </style>
+</head>
+
+<body leftmargin="0px" topmargin="0px" marginwidth="0px">
+  <div style="color: #FFFFFF">
+    <img src="images/3DTeam.jpg" alt="alt_text" width="2560" height="9848" usemap="#dev3d" border="0" align="center"
+      style="width: 100%; max-width: 1600px; height: auto; text-align: center;">
+    <map name="dev3d">
+      <area shape="rect" coords="23,37,480,297" href="index.html" target="_self">
+      <area shape="rect" coords="462,9591,34,9346" href="index.html" target="_self">
+      <area shape="rect" coords="934,9403,1626,9536" href="https://www.gamejob.co.kr/List_GI/GIB_Read.asp?GI_No=199278"
+        target="_blank">
+    </map>
+  </div>
+
+  <script src="scripts/vendor/jquery-1.10.2.min.js"></script>
+  <script src="scripts/vendor/jquery.rwdImageMaps.min.js"></script>
+  <script>
+    $(document).ready(function (e) {
+      $('img[usemap]').rwdImageMaps();
+    });
+  </script>
+</body>
+
+</html>
